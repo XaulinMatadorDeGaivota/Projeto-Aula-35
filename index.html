@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Zen</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+    <script src = "https://www.gstatic.com/firebasejs/9.1.2/firebase-app-compat.js"></script>
+    <script src = "https://www.gstatic.com/firebasejs/9.1.2/firebase-database-compat.js"></script>
+    <script type="module">
+
+      // Configuração do Firebase do seu aplicativo da web
+      //adicione aqui
+     const firebaseConfig = {
+    apiKey: "AIzaSyAE56LHMLIZ2Lh-rFEa20laxF_FYne5Vwo",
+    authDomain: "matheus-lindo-e-maravilhoso.firebaseapp.com",
+    databaseURL: "https://matheus-lindo-e-maravilhoso-default-rtdb.firebaseio.com",
+    projectId: "matheus-lindo-e-maravilhoso",
+    storageBucket: "matheus-lindo-e-maravilhoso.appspot.com",
+    messagingSenderId: "246319844211",
+    appId: "1:246319844211:web:3726ebeb3ed23360381306"
+  };
+
+      // Inicializar Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
